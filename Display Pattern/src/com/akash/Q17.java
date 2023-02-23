@@ -9,12 +9,11 @@ package com.akash;
 public class Q17 {
 	public static void main(String[] args) {
 		int n = 5;
-		int m = 6;
 		//Nested Loop
-		//Outer Loop
-		for(int i = 1; i <= n; i++) {
-			//Inner Loop
-			for(int j = 1; j <= m - i; j++) {
+		//Inner Loop
+		for(int i = 0; i <= n; i++) {
+			//Outer Loop
+			for(int j = 1; j <= n - i; j++) {
 				System.out.print(j + " ");
 			}
 			System.out.println();

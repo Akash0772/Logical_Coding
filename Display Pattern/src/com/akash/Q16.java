@@ -10,9 +10,9 @@ public class Q16 {
 	public static void main(String[] args) {
 		int n = 5;
 		//Nested Loop
-		//Outer Loop
+		//Inner Loop
 		for(int i = 1; i <= n; i++) {
-			//Inner Loop
+			//Outer Loop
 			for(int j = i; j <= 5; j++) {
 				System.out.print(i + " ");
 			}
