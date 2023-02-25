@@ -1,10 +1,10 @@
 package com.akash;
 /*
-    1 
-   3 3 
-  5 5 5 
- 7 7 7 7 
-9 9 9 9 9 
+        1 
+      3 3 3 
+    5 5 5 5 5 
+  7 7 7 7 7 7 7 
+9 9 9 9 9 9 9 9 9
  */
 public class Q36 {
 	public static void main(String[] args) {
