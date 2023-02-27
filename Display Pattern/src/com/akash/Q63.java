@@ -1,12 +1,12 @@
 package com.akash;
 /*
-      3 
-    3 2 
-  3 2 1 
-3 2 1 0 
-  3 2 1 
-    3 2 
-      3  
+      D 
+    D C 
+  D C B 
+D C B A 
+  D C B 
+    D C 
+      D   
  */
 public class Q63 {
 	public static void main(String[] args) {
