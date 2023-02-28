@@ -1,5 +1,5 @@
 # Logical Coding
-
+Solution of Logical coding in Java
 
 # topic list
 
