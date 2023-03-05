@@ -1,2 +1,12 @@
-# Logical_Coding
-We are covering every section of Logical coding. For example Number System, Display patterns, Strings, Strings with File handling and Arrays. These topics are very important for attending any interview.
+# Logical Coding
+Solution of Logical coding in Java
+
+# topic list
+
+- [x] Display Pattern
+- [ ] Number System
+- [ ] Arrays
+- [ ] String & File Handling
+
+![akash](https://user-images.githubusercontent.com/97358095/221644671-63e2480a-af90-470b-80f8-24450a246f14.png)
+
