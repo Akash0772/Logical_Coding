@@ -1,5 +1,12 @@
 package com.akash;
 // Q1. Print a bigger number from 2 given numbers.
+/*
+Output
+Enter two numbers
+5
+6
+A Bigger Number is 6
+ */
 import java.util.Scanner;
 public class Q1 {
 	public static void main(String[] args) {
