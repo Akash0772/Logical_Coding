@@ -1,5 +1,13 @@
 package com.akash;
 // Q3. Print middle number from 3 given numbers. 
+/*
+Output
+Enter three numbers
+5
+3
+1
+A Middle Value is 3
+ */
 import java.util.Scanner;
 public class Q3 {
 	public static void main(String[] args) {
