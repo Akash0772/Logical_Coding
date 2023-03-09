@@ -1,5 +1,13 @@
 package com.akash;
 // Q6. Print true, if the sum of squares of any 2 numbers is a 3rd given number.
+/*
+Enter the two numbers
+2
+3
+Enter the target number
+13
+true
+ */
 import java.util.Scanner;
 public class Q6 {
 	public static void main(String[] args) {
