@@ -1,5 +1,14 @@
 package com.akash;
 // Q4. Print ascending order of 3 given numbers.
+/*
+OutPut
+Enter three numbers
+8
+4
+2
+Descending order is 8,4,2
+Ascending order is 2,4,8
+ */
 import java.util.Scanner;
 public class Q4 {
 	public static void main(String[] args) {
