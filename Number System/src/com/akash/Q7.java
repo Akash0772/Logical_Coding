@@ -1,5 +1,14 @@
 package com.akash;
 //Q7. Find out if a given number is an even or odd?
+/*
+Enter the number
+4
+even
+
+Enter the number
+3
+odd
+ */
 import java.util.Scanner;
 public class Q7 {
 	public static void main(String[] args) {
