@@ -1,5 +1,13 @@
 package com.akash;
 // Q5. Print true, if the sum of any 2 numbers is a 3rd given number.
+/*
+Output
+Enter three numbers
+4
+4
+8
+true
+ */
 import java.util.Scanner;
 public class Q5 {
 	public static void main(String[] args) {
