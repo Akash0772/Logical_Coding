@@ -1,25 +1,23 @@
 package com.akash;
 /*
-1 
-1 2 
+3 
+2 3 
 1 2 3 
-1 2 3 4 
-1 2 3 4 5 
-2 3 4 5 
-3 4 5 
-4 5 
-5  
+0 1 2 3 
+1 2 3 
+2 3 
+3   
  */
-public class Q77 {
+public class Q56 {
 	public static void main(String[] args) {
-		int n = 5; 
-		for(int i = 1; i <= n; i++) {
-			for(int j = 1; j <= i; j++) {
+		int n = 3;
+		for(int i = n; i >= 0; i--) {
+			for(int j = i; j <= n; j++) {
 				System.out.print(j + " ");
 			}
 			System.out.println();
 		}
-		for(int i = 2; i <= n; i++) {
+		for(int i = 1; i <= n; i++) {
 			for(int j = i; j <= n; j++) {
 				System.out.print(j + " ");
 			}
