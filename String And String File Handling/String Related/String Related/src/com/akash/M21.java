@@ -7,7 +7,7 @@ public class M21 {
 	public static void main(String[] args) {
 		String s1 = "java is better than apple";
 //		             0123
-//		right to left
+//		left to right
 		int i = s1.indexOf(' ');
 		int words = 0;
 //		using while loop

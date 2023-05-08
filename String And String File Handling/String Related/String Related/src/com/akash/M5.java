@@ -19,5 +19,6 @@ public class M5 {
 			c1 = s1.charAt(i);
 			System.out.println(c1);
 		}
+//		System.out.println(c1);
 	}
 }

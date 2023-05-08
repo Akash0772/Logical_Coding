@@ -1,0 +1,37 @@
+package com.akash;
+/* In order to get the following output what could be the missing statement
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1
+
+
+A.	System.out.print("1"); 
+                                  
+                                                                
+B.	System.out.print(1 + " "); 
+                                  
+                                                                
+C.	System.out.print(i + " "); 
+                                  
+                                                                                             
+D.	System.out.print(j + " ");
+*/
+public class Q2 {
+	public static void main(String[] args) {
+		int rows = 10;
+		int cols = 10;
+		for(int i = 1; i <= rows; i++) {
+			for(int j = 1; j <= cols; j++) {
+				System.out.print(1 + " "); /* Statement here */
+			}
+			System.out.println();
+		}
+	}
+}

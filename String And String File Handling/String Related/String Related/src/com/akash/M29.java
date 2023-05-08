@@ -32,7 +32,7 @@ public class M29 {
 			toIndex = s1.indexOf(' ', fromIndex);
 		}
 //		System.out.println(fromIndex);
-		word = s1.substring(fromIndex);
-		System.out.println(word);
+//		word = s1.substring(fromIndex);
+//		System.out.println(word);
 	}
 }

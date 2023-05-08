@@ -1,21 +1,27 @@
 package com.akash;
 // Develop a program to print prime numbers which are immediately after multiples of 10 and bellow 200.
 public class Q29 {
-	public static boolean isPrime(int n) {
-		if(n % 2 == 0 || n % 1 == 0) {
-			return true;
-		}
-		for(int i = 2; i <= Math.sqrt(n); i++) {
-			if(n % i == 0) {
-				return true;
-			}else {
-				return false;
-			}
-		}
-		return isPrime(n);
-	}
+	
 	public static void main(String[] args) {
-		int n = 5;
-		System.out.println(isPrime(n));
+		int num1 = 10;
+		int num2 = 200;
+		boolean isPrime = true;
+		int primeCount = 0;
+		while(num1 < num2) {
+			for(int i = 2; i <= (num1 / 2); i++) {
+				if(num1 % i == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+			if(isPrime) {
+				System.out.print(num1 + ", ");
+				primeCount++;
+			}
+			isPrime = true;
+			num1++;
+		}
+		System.out.println();
+		System.out.println(primeCount);
 	}
 }

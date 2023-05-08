@@ -11,6 +11,8 @@ public class M31 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter a line of words");
 		String s1 = sc.nextLine();
+//		btm is java
+//		123456789
 		int longestWordLength = 0, longestWordFromIndex = 0, longestWordEndIndex = s1.length() - 1;
 		int fromIndex = 0;
 		int toIndex = s1.indexOf(' ');
